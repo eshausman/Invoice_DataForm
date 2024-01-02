@@ -74,7 +74,8 @@ class _HomeState extends State<Home> {
                             ),
                           ],
                         ),
-                        
+                        // child: CustomDataTable(invoice, company, invoicedate, due_date, status, amount)
+                        child: CustomDataTable(),
                       ),
                     ],
                   ),
